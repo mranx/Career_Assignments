@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .container{
+            text-align: center;
+            border: 2px solid black;
+            margin: 65px 366px 0px 344px;
+            border-radius: 5px ;
+        }
+        .blog{
+            display: flex;
+        }
+        .blog-1, .blog-2 , .blog-3{
+            width: 33%;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog">
+        <div class="blog-1">
+            <h3>What is <b> Web Development? </b></h3>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+        </div>
+        <div class="blog-2">
+            <h3>What is <b> HTML? </b> </h3>
+            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+        </div>
+        <div class="blog-3">
+            <h3>What is <b>CSS?</b> </h3>
+            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. </p>
+        </div>
+
+    </div>
+    <div class="container">
+        <!-- Form Practice- Career Institue -->
+        <h2>NAVTCC - Registration Form</h2>
+        <form>
+            <input type="text" name="cName" placeholder="Enter Course Name"> <br><br>
+            <input type="text" name="institueName" placeholder="Enter Institue Name"> <br><br>
+            <input type="text" name="userName" placeholder="Enter your complete Name"> <br><br>
+            <input type="text" name="fName" placeholder="Enter Father Name"> <br><br>
+            Date of birth : <br> <input type="date" name="dob" > <br><br>
+            <input type="number" name="cnic" placeholder="Enter CNIC Number" maxlength="13"> <br><br>
+            <input type="text" name="domicile" placeholder="Domicile"> <br><br>
+            <input type="number" name="userNum" placeholder="Enter your Number"> <br><br>
+            <input type="number" name="userfNum" placeholder="Enter your Father Number"> <br><br>
+            <input type="email" name="userEmail" placeholder="Enter your Email">  <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
