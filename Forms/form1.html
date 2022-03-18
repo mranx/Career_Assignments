@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      .heading {
+        padding: 10px;
+        color: darkgray;
+        background-color: black;
+      }
+      .container {
+        color: black;
+        text-align: center;
+        border: 2px solid black;
+        margin: 65px 366px 0px 344px;
+        border-radius: 5px;
+        background-color: #a39e9e82;
+      }
+      input {
+        height: 30px;
+        border: none;
+        background-color: #d0cece;
+        border-bottom: 2px solid black;
+      }
+      input::placeholder {
+        font-size: 17px;
+        padding: 5px;
+      }
+      input[type=text],input[type=email]{
+          width: 50%;
+      }
+      input[type=date], input[type=number]
+      {
+          width: 30%;
+      }
+      label{
+        font-size: 20px;
+    }
+      .btn {
+          padding: 5px 30px 10px 30px;
+        margin: 13px;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        color: darkgrey;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Form Practice- Career Institue -->
+      <h2 class="heading">NAVTCC - Registration Form</h2>
+      <form>
+        <input type="text" name="cName" placeholder="Course Name" /> <br />
+        <br />
+        <input type="text" name="institueName" placeholder="Institue Name" />
+        <br />
+        <br />
+        <input type="text" name="userName" placeholder="Complete Name" /> <br />
+        <br />
+        <input type="text" name="fName" placeholder="Father Name" /> <br />
+        <br />
+        <input
+          type="number"
+          name="cnic"
+          placeholder="CNIC Number"
+          maxlength="13"
+        />
+        <br />
+        <br />
+
+        <input type="text" name="domicile" placeholder="Domicile" /> <br />
+        <br />
+       <label for="dob"> Date of birth :</label>
+        <input type="date" name="dob" /> <br /><br />
+
+        <label for="userNum">Your Phone Number :</label>
+        <input type="number" name="userNum" placeholder="+92 " /> <br />
+        <br />
+
+        <label for="userfNum">Father Phone Number : </label>
+        <input type="number" name="userfNum" placeholder="+92 " /> <br />
+        <br />
+
+        <input type="email" name="userEmail" placeholder="Email" /> <br />
+        <br />
+        <input class="btn" type="reset" value="Reset" />
+        <input class="btn" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
