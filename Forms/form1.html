@@ -12,21 +12,24 @@
         }
       .heading {
         padding: 10px;
-        color: #2f2d2d;
-        font-size: 39px;
+        color: hsl(0, 2%, 18%);
+        font-size: 50px;
         font-weight: bold;
         /* background-color: black; */
       }
       .container {
-          margin-right: 150px;
-          width: 50%;
-          float: right;
         color: black;
         text-align: center;
-        /* border: 2px solid black; */
-        /* margin: 65px 366px 0px 344px; */
-        border-radius: 5px;
-        /* background-color: #a39e9e82; */
+        display: flex;
+        width: 100%;
+      }
+      .left{
+        width: 50%;
+        margin: auto;
+      }
+      .right{
+        width: 50%;
+        margin: auto;
       }
       input {
         height: 30px;
@@ -63,8 +66,13 @@
   </head>
   <body>
     <div class="container">
+      <div class="left">
+        <h1 class="heading">NAVTCC</h1>
+        <p style="font-size: 25px;"><i>National Vocational and Technical Training <br> Commission is a regulatory body for technical education <br> and vocational training in Pakistan. It was founded by its chairman Altaf M. Saleem. </i></p>
+      </div>
+      <div class="left">
       <!-- Form Practice- Career Institue -->
-      <h2 class="heading">NAVTCC - Registration Form</h2>
+      <h2 class="heading">Registration Form</h2>
       <form>
         <input type="text" name="cName" placeholder="Course Name" /> <br />
         <br />
@@ -102,6 +110,7 @@
         <input class="btn" type="reset" value="Reset" />
         <input class="btn" type="submit" value="Submit" />
       </form>
+    </div>
     </div>
   </body>
 </html>
