@@ -17,6 +17,7 @@ ul li{
 }
 .drop-down{
     border: none;
+    background-color: transparent;
 }
 .vl {
    border-left: 2px solid black;
@@ -57,4 +58,39 @@ ul li{
 }
 .left-items span{
     margin-right: 22px;
+    cursor: pointer;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.b-cate{
+    width: 20%;
+display: flex;
+justify-content: left;
+padding: 5px;
+margin-left: 10px;
+background-color: #E93939;
+}
+.b-cate select{
+    width: 100%;
+    padding: 5px;
+background-color: #E93939;
+color: white;
+border: none;
+font-size: 18px;
+cursor: pointer;
+}
+.d{
+    background-color: red;
+}
+.nav-drop{
+    color: white;
+}
+.nav-items{
+    margin-right: 500px;
 }
