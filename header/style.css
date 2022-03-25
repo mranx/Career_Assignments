@@ -41,8 +41,10 @@ ul li{
 .input-search{
     width: 500px;
     padding: 20px;
-    border-left: none;
     border-color: red !important;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
 }
 .items{
     display: flex;
