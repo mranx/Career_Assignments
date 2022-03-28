@@ -146,7 +146,30 @@ button{
 .shopbtn{
     font-size: 15px;
     padding: 15px 40px;
+    /* position: relative;
+    overflow: hidden; */
 }
+/* .shopbtn::before{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 200px;
+    top: -142px;
+    left: -72px;
+    transform: rotateZ(45deg);
+    background-color: red;
+}
+.shopbtn:hover:before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 195px;
+    top: 10px;
+    left: 80px;
+    transform: rotateZ(45deg);
+    background-color: red;
+    transition: all 0.5s linear;
+} */
 .hero-right{
     width: 50%;
 }
