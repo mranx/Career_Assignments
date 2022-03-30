@@ -218,6 +218,9 @@ button{
     align-items: center;
     padding-left: 30px;
 }
+.heading{
+    font-size: 40px;
+}
 .shop-btn{
     font-size: 20px;
     background: transparent;
@@ -286,6 +289,18 @@ button{
         .input-search{
             width: 250px;
         }
+        .fashions, .foot-wear , .mens{
+            width: 30%;
+            padding-left: 10px;
+        }
+        .cate-img{
+            width: 50%;
+        }
+        .HOhr::after{
+            width: 65%;
+            margin-left: 0px;
+        
+        }
 }
 @media screen AND (max-width : 1040px) {
     .input-search{
@@ -348,10 +363,26 @@ button{
         height: auto;
     }
     .fashions, .foot-wear , .mens{
-        width: 100%;
+        width: 70%;
         margin-top: 10px;
     }
-
+    .heading{
+        font-size: 30px;
+    }
+    .bsellings{
+        flex-wrap: wrap;
+    }
+    .hotOffers, .hotoffers2{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .HOleft, .HOright{
+        display: block;
+        width: 40%;
+    }
+    .HOimg img{
+        width: 100%;
+    }
 
 }
 }
