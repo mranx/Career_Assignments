@@ -278,4 +278,81 @@ button{
     margin-top: 20px;
 }
 
+@media screen AND (max-width : 1271px) {
+    .input-search{
+        width: 400px;
+    }
+@media screen AND (max-width : 1171px) {
+        .input-search{
+            width: 250px;
+        }
+}
+@media screen AND (max-width : 1040px) {
+    .input-search{
+        width: 200px;
+    }
+    .logo img{
+        width: 150px;
+    }
+}
+@media screen AND (max-width : 945px) {
+    .lower{
+        display: block;
+    }
+    .input-search{
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .left{
+        display: none;
+    }
+    .upper{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    .hero-left{
+         margin-left: 80px;
+    }
+    .hero-left h4{
+        font-size: 18px;
 
+    }
+    .hero-left h1{
+        font-size: 33px;
+    }
+    .hero-left h6{
+        font-size: 30px;
+    }
+    .hero-left p{
+        font-size: 20px;
+    }
+    .shopbtn{
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    .hero-right img{
+        width: 300px;
+    }
+    .support{
+        flex-flow: row wrap;
+    }
+    .category-section{
+        flex-flow: row wrap;
+        height: auto;
+    }
+    .fashions, .foot-wear , .mens{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+}
+ 
