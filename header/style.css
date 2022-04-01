@@ -280,10 +280,85 @@ button{
     justify-content: space-around;
     margin-top: 20px;
 }
+/* Electronics Furniture Section  */
+.elec-fur{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.elec,.fur{
+    width: 47%;
+    background-color: #dedad9;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+/* Compare Section  */
+.compare-S{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.compare-Plus{
+    display: flex;
+}
+.plus{
+    border: 2px solid #dedad9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 90px;
+    height: 90px;
+}
+body > div.compare-S > div.compare-H > h4{
+    font-size: 23px;
+}
+body > div.compare-S > div.compare-Plus > div:nth-child(n) > div{
+    font-size: 30px;
+    color: #dedad9;
+}
+.inner-plus{
+    border: 2px solid #dedad9;
+    border-radius: 50%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    /* box-shadow: 3px 5px #c7c3c2; */
+}
+.inner-plus:hover{
+    box-shadow: 3px 5px #c7c3c2;
+    cursor: pointer;
+}
+body > div.compare-S > div.compare-Btns > button.btn-clear{
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+body > div.compare-S > div.compare-Btns > button.btn-start{
+    font-size: 20px;
+border: none;
+background-color: red;
+color: white;
+padding: 10px 28px;
+}
+
 
 @media screen AND (max-width : 1271px) {
     .input-search{
         width: 400px;
+    }
+    .bsellings{
+        flex-wrap: wrap;
     }
 @media screen AND (max-width : 1171px) {
         .input-search{
@@ -309,20 +384,26 @@ button{
     .logo img{
         width: 150px;
     }
+    .bsellings{
+        flex-wrap:wrap ;
+    }
+    .elec,.fur{
+        width: 45%;
+    }
 }
 @media screen AND (max-width : 945px) {
     .lower{
-        display: block;
+        display: flex;
     }
-    .input-search{
-        width: 100%;
+    body > header:nth-child(2) > div > div.search-box{
+        display: none;
     }
-    .logo{
+    /* .logo{
         text-align: center;
-    }
-    .logo img{
+    } */
+    /* .logo img{
         width: 50%;
-    }
+    } */
     .left{
         display: none;
     }
@@ -378,11 +459,61 @@ button{
     }
     .HOleft, .HOright{
         display: block;
-        width: 40%;
+        width: 100%;
     }
     .HOimg img{
         width: 100%;
     }
+    .elec,.fur{
+        width: 80%;
+    }
+    body > div.compare-S > div.compare-Plus > div:nth-child(4){
+        display: none;
+    }
+
+}
+@media screen AND (max-width:500px) {
+    .hero-left {
+        margin-left: 40px;
+    }
+    .hero-left h4 {
+        font-size: 13px;
+    }
+    .hero-left h1 {
+        font-size: 28px;
+    }
+    .hero-left h6 {
+        font-size: 25px;
+    }
+    .hero-left p {
+        font-size: 16px;
+    }
+    .shopbtn{
+        font-size: 12px;
+    }
+    .hero-right img {
+        width: 230px;
+    }
+    body > div.compare-S > div.compare-Plus > div:nth-child(4){
+        display: none;
+    }
+    body > div.compare-S > div.compare-H > h4 {
+        font-size: 18px;
+    }
+    body > div.compare-S > div.compare-Btns > button.btn-start{
+        border: none;
+        padding: 9px 15px;
+    }
+    body > div.compare-S > div.compare-Btns > button.btn-clear{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
 
 }
 }
