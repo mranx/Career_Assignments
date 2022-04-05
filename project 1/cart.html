@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/14dbade952.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/c2e2166b0d.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="./css/cart.css" />
-    <link rel="stylesheet" href="./css/header.css" /> -->
     <link rel="stylesheet" href="./css/main.all.css">
     <title>Shopping Cart</title>
   </head>
-  <body><header>
+  <body>
+    <header>
     <!-- main Top bar section  -->
     <div class="top-bar">
       <div class="container">
@@ -26,7 +25,7 @@
             </select>
           </div>
           <div class="header-user-links">
-            <a href="#">Login or Register</a>
+            <a href="./e-commerce-project-main/html/Log-in.html">Login or Register</a>
           </div>
         </div>
       </div>
@@ -36,7 +35,7 @@
         <div class="row">
           <div class="main-logo">
             <div class="logo">
-              <a href="./index.html" target="_blank">
+              <a href="./index.html" >
                 <img src="./img/logo.png" alt="" />
               </a>
             </div>
@@ -115,15 +114,25 @@
           </div>
           <div class="nav-header">
             <ul>
-              <li><a href="./index.html">HOME</a></li>
-              <li><a href="#">PRODUCT</a></li>
-              <li><a href="./404page.html">404 ERROR</a></li>
-
-              <li><a href="./about.html">ABOUT US</a></li>
-              <li><a href="./cart.html">SHOPPING CART</a></li>
-              <li><a href="#">CONTACT US</a></li>
-            </ul>
-          </div>
+                <li><a href="./index.html">HOME</a></li> 
+                <li><a href="./cart.html">SHOPPING CART</a></li>
+                <li><a href="./404page.html">404 ERROR</a></li>
+                <li><a href="./about.html">ABOUT US</a></li>
+               
+                <!-- <li><a href="#">CONTACT US</a></li> -->
+                 <li> <div class="dropdown">
+                  <button  style="font-weight: 500;" class="dropbtn"> ALI'S PAGES
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./e-commerce-project-main/html/Log-in.html" target="_blank">Signin/Register</a>
+                    <a href="./e-commerce-project-main/html/Contact-us.html" target="_blank" >Contact Us</a>
+                    <a href="./e-commerce-project-main/html/Single-product.html" target="_blank" >Single Product</a>
+                    <a href="./e-commerce-project-main/html/Checkout.html" target="_blank" >CHECKOUT</a>
+                  </div>
+                </div> </li>
+              </ul>
+           </div>
         </div>
       </div>
     </div>
