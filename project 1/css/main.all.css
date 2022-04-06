@@ -1035,6 +1035,7 @@ padding: 8px 11px;
   background-color: #151515;
   height: 50vh;
   display: flex;
+  margin-top: 30px;
 }
 .low-footer{
   width: 100%;
