@@ -207,7 +207,7 @@ input[type=email]:hover{
 .footer{
     width: 100%;
     background-color: #151515;
-    height: 70vh;
+    height: 50vh;
     display: flex;
 }
 .low-footer{
@@ -358,7 +358,7 @@ i{
     .footer{
         display: flex;
         flex-direction: column;
-        height: 250vh;
+        height: 150vh;
     }
     .footer-left{
       width: 90%;
