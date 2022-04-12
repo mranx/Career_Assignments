@@ -157,7 +157,6 @@ div.main-header > div {
 @keyframes heroheadingh3 {
   0% {
     opacity: 0;
-    /* transform: translate3d(0%, 100%, 0%); */
     transform: translateY(100%);
   }
   100% {
@@ -490,7 +489,7 @@ div.fun-img > img {
   width: 100%;
 }
 .single-event-content {
-  background: #ffffff none repeat scroll 0 0;
+  background: #ffffff ;
   box-shadow: 0px 0px 4px 0 #ddd;
   padding: 14px 15px 20px;
   margin-bottom: 5px;
@@ -832,8 +831,12 @@ div.center > i{
   font-size: 90px;
   margin-bottom: 10px;
 }
-
-
+div.about-content > p > a{
+  color: var(--main-color);
+}
+div.about-content > p > a:hover{
+  color: #555555;
+}
 
 
 
@@ -927,7 +930,7 @@ div.center > i{
     min-width: 260px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #f1f1f1;
-    top: 80%;
+    top: 45%;
     right: 18px;
     transform: translateY(-2em);
     z-index: 3;
