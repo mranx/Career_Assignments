@@ -489,10 +489,9 @@ div.fun-img > img {
   width: 100%;
 }
 .single-event-content {
-  background: #ffffff ;
+  background: #ffffff;
   box-shadow: 0px 0px 4px 0 #ddd;
   padding: 14px 15px 20px;
-  margin-bottom: 5px;
   margin-top: -8px;
 }
 .single-event-content h3 a {
@@ -821,22 +820,75 @@ div.contact-icon > img {
   border: 1px solid var(--txt-color);
 }
 /* Under Maintenace page  */
-.auto{
+.auto {
   margin: auto;
 }
-.center{
+.center {
   text-align: center;
 }
-div.center > i{
+div.center > i {
   font-size: 90px;
   margin-bottom: 10px;
 }
-div.about-content > p > a{
+div.about-content > p > a {
   color: var(--main-color);
 }
-div.about-content > p > a:hover{
+div.about-content > p > a:hover {
   color: #555555;
 }
+
+/* Login pAge  */
+.login {
+  height: 100vh;
+}
+.theight{
+  height: 100%;
+}
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.inputtxt {
+  width: 50%;
+  margin-top: 30px;
+  height: 45px;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #c1dcdf;
+  outline: none;
+  color: var(--txt-color);
+  font-size: 16px;
+}
+form.login-form > input::placeholder{
+  color: #c1dcdf;
+}
+form.login-form > input[type=submit]{
+  cursor: pointer;
+}
+form.login-form > p{
+  color: white;
+    font-family: "Sniglet", cursive;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+form.login-form > p > a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+  border-bottom: 2px solid transparent;
+
+  
+}
+form.login-form > p > a:hover{
+  border-bottom: 2px solid #c1dcdf;
+}
+
+
+
+
 
 
 
@@ -1006,7 +1058,8 @@ div.about-content > p > a:hover{
   .about-content {
     text-align: center;
   }
-  .text404, .img404{
+  .text404,
+  .img404 {
     width: 100%;
   }
 }
