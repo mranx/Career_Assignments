@@ -598,6 +598,7 @@ div.new-comers-content > h3 {
 
 /* Banner Area  */
 .banner-area {
+  margin-top: 80px;
   background: url(../images/bg.jpg);
   background-size: cover;
   background-position: center center;
