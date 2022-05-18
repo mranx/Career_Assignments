@@ -11,7 +11,7 @@
       let value = ["HTML", "CSS", "Bootstrap", "JAVASCRIPT", "PHP"];
       document.write("<h2>For Each LOOP</h2>");
       value.forEach((x) => {
-        document.write(x);
+        document.write(x + "<br>");
       });
 
       value.forEach(function (x) {
@@ -19,16 +19,15 @@
       });
       document.write("<h2>For IN loop</h2>");
       for (const x in value) {
-        document.write(value[x] + " " + "<br>");
+        document.write(x + " " + "<br>");
       }
       document.write("<h2>For of loop</h2>");
-      let language = "JavaScript";
 
       let text = "";
-      for (let x of language) {
-        text += x + "<br>";
+      for (let x of value) {
+
+        document.write(x + "<br>");
       }
-      document.write(text);
     </script>
   </body>
 </html>
