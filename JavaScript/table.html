@@ -7,11 +7,13 @@
     <title>Table</title>
   </head>
   <body>
+    <input type="text" id="input" placeholder="Enter Number to display table">
     <button onclick="table_display()">Display Table</button>
     <p id="dtable"></p>
     <script>
       function table_display() {
-        let table = prompt("Enter Table of ??");
+        let table= document.getElementById("input").value;
+        // let table = prompt("Enter Table of ??");
         for (let i = 1; i <= 10; i++) {
           const result = i * table;
           document.write( table + " * " + i + " = " + result + " </br> " );

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find In string using index number</title>
+  </head>
+  <body>
+    <button onclick="s_string(str)">Click me</button>
+    <br />
+    <script>
+      let str = ["HTML", "CSS", "Bootstrap", "JAVASCRIPT", "PHP"];
+      for (const x in str) {
+        document.write(x + " " + str[x] + "<br>");
+      }
+      function s_string(str) {
+        let get = prompt("Enter Index Number to search");
+        document.write("Your string at Index " + get + " is " + str[get]);
+      }
+    </script>
+  </body>
+</html>

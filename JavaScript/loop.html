@@ -13,20 +13,23 @@
       value.forEach((x) => {
         document.write(x + "<br>");
       });
-
       value.forEach(function (x) {
-        document.write(x + "<br>");
+        document.write(value + "<br>");
       });
       document.write("<h2>For IN loop</h2>");
       for (const x in value) {
-        document.write(x + " " + "<br>");
+        document.write( value[x] + x + " " + "<br>" );
+      }
+      const person = { fname: "Ali", lname: "Haider", age: "24" };
+      for (const x in person) {
+        const label = x;
+        const detail = person[x];
+        document.write(label + " : ");
+        document.write(detail + " , ");
       }
       document.write("<h2>For of loop</h2>");
-
-      let text = "";
       for (let x of value) {
-
-        document.write(x + "<br>");
+        document.write(x + "<br>" );
       }
     </script>
   </body>
